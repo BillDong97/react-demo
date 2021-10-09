@@ -7,6 +7,13 @@ body {
     padding-left: 30px;
   }
   
+  .start {
+    background-color: rgb(228, 144, 20);
+  }
+  .selected {
+    border: #000 solid 1px;
+    background-color: rgb(73, 101, 192);
+  }
   .board-row:after {
     clear: both;
     content: "";
